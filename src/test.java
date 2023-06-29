@@ -33,14 +33,14 @@ public static void main(String[] args)
     test dog2=new test("Kasolo","Kienyeji");
 
     System.out.println(dog1.getName() + " is a "+ dog1.getBreed());
-    System.out.println(dog2.getName()+ "is a "+dog2.getBreed());
+    System.out.println(dog2.getName()+ " is a "+dog2.getBreed());
 
     //Set new Names for both dogs
     dog1.setName("Kisinga");
     dog2.setName("Mwanga");
 
     //Print out using the new names
-    System.out.println(dog1.getName()+"is a "+dog1.getBreed());
+    System.out.println(dog1.getName()+" is a "+dog1.getBreed());
     System.out.println(dog2.getName()+" is a "+dog2.getBreed());
 
 }
