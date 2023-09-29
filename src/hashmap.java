@@ -7,7 +7,11 @@ public class hashmap {
         capitalCities.put("Kenya","Nairobi");
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway","Oslo");
-        System.out.println(capitalCities);
+        System.out.println(capitalCities.get("Kenya"));
+        for(String i:capitalCities.values())
+        {
+            System.out.println(i);
+        }
         
     }
 
